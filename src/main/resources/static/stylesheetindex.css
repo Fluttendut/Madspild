@@ -1,2 +1,3 @@
-body {background-image: url("foodwaste2.png")}
+body {background-image: url("foodwaste2.png"); background-size: auto}
+
 header {margin: 0 auto; width: 1024px; margin-left: 35%; margin-top: 211px;}

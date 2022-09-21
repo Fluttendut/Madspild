@@ -19,5 +19,9 @@ public class htmlcontroller {
     public String boardgame() {
         return "boardgame";
     }
+    @GetMapping("/calculator")
+    public String calculator() {
+        return "calculator";
+    }
 
 }

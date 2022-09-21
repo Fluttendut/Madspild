@@ -4,3 +4,4 @@ body {background-color: rgb(0, 138, 174, 1); text-align: center; font-size: larg
 header {background-color: white; padding-bottom: 50px; padding-top: 50px; width: 800px; margin: auto}
 #section1 {background-color: beige ;float: left; margin-top: 30px; margin-left: 10px; height: 200px; width: 385px}
 #section2 {background-color: beige; float: right; margin-top: 30px; margin-right: 10px; height: 200px; width: 385px }
+#factoryimg {width: 10px; height: 10px}
