@@ -5,6 +5,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="stylesheetcalculator.css">
 </head>
+
 <body>
 
 <header>
@@ -15,7 +16,7 @@
 
 
 
-<section id="section1"> input your amount of waste in the form of kg below
+<section id="section1"> Input your amount of waste in the form of kg. below
 
     <div>
     <form method="post" action="calculate">
@@ -24,8 +25,10 @@
         <input type="submit" value="Send">
     </form>
 
-    <p><span th:text = "${result1}" /></p>
-    <p><span th:text = "${result2}" /></p>
+    <p><span th:text = "${result1}"/>  "kWh Heat pr. kg/waste"</p>
+    <p><span th:text = "${result2}" /> "kWh Power pr. kg/waste"</p>
+        <img src="unlimitedpower.png" >
     </div>
+</section>
 </body>
 </html>

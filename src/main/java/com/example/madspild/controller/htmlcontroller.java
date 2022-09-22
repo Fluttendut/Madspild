@@ -35,8 +35,8 @@ public class htmlcontroller {
         String value_1 = data.getValue_1();
         double amountOfPower = 0.54944;
         double amountOfHeat  = 2.2322;
-        double result2 = Double.parseDouble(value_1) * amountOfHeat;
-        double result1 = Double.parseDouble(value_1) * amountOfPower;
+        double result1 = Double.parseDouble(value_1) * amountOfHeat;
+        double result2 = Double.parseDouble(value_1) * amountOfPower;
 
         model.addAttribute("result1",result1);
         model.addAttribute("result2",result2);
