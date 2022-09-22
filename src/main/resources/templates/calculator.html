@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="stylesheetcalculator.css">
 </head>
 <body>
+<p><span th:text = "${result1}" /></p>
+<p><span th:text = "${result2}" /></p>
 
+
+<form method="post" action="calculate">
+    <input name="value_1" type="number">
+
+    <input type="submit" value="Send">
+</form>
 </body>
 </html>
