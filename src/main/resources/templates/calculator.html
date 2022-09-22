@@ -5,15 +5,18 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="stylesheetcalculator.css">
 </head>
-<body>
-<p><span th:text = "${result1}" /></p>
-<p><span th:text = "${result2}" /></p>
 
+<body>
+<header>On this page you can calculate your powerlevel</header>
+<section> input your amount of waste in the form of kg below</section>
 
 <form method="post" action="calculate">
     <input name="value_1" type="number">
 
     <input type="submit" value="Send">
 </form>
+
+<p><span th:text = "${result1}" /></p>
+<p><span th:text = "${result2}" /></p>
 </body>
 </html>
