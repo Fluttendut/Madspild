@@ -15,29 +15,45 @@
 </header>
 
 
-
 <section id="section1"> Input your amount of waste in the form of kg. below
 
     <div>
-    <form method="post" action="calculate">
-        <input name="value_1" type="number">
+        <form method="post" action="calculate">
+            <input name="value_1" type="number">
 
-        <input type="submit" value="Send">
-    </form>
+            <input type="submit" value="Calculate">
+        </form>
 
-    <p><span th:text = "${result1}"/>  "kWh Heat pr. kg/waste"</p>
-    <p><span th:text = "${result2}" /> "kWh Power pr. kg/waste"</p>
-   <section id ="funFacts">
-    <p>fun facts about garbage you might not know!</p>
-        <p>the averagve person in the EU creates about 505kg of waste each year</p>
-        <p>The average dane, creates about 845kg a waste each year</p>
-        <p>Almost 50% more than the average</p>
-        <p>In Denmark, 25% of all heat comes from burning garbage</p>
-        <p>burning 2kg of garbage creates enough electricity to vacumclean for 35 min</p>
-        <p>vestforbrændingen creates enough power for 80000 homes and enough heat for 75000 homes from burning garbage</p>
-   </section>
+        <p><span th:text="${result1}"/> "kWh Heat pr. kg/waste"</p>
+        <p><span th:text="${result2}"/> "kWh Power pr. kg/waste"</p>
+        <section id="funFacts">
 
-        <img id="unlimitedpower" src="unlimitedpower.png" >
+            <h1> Fun facts about garbage you might not know! </h1>
+            <p>The averagve person in the EU creates </p>
+            <p>about 505kg of waste each year The averge dane</p><p> creates about 845kg a waste each year</p>
+            <bk>Almost 50% more than the average person in the EU</bk>
+
+    <section id="funFacts2">
+        <h1> Fun facts part 2</h1>
+        <bk>In Denmark, 25% of all heat comes from burning garbage</bk>
+        <bk>burning 2kg of garbage creates enough electricity to</bk>
+        <bk>vacumclean for 35 min</bk>
+        <bk>vestforbrændingen creates enough power for 80000 homes</bk>
+        <bk>and enough heat for 75000 homes from burning garbage</bk>
+        <bk>melting sodacans and other nonflamable objects can</bk>
+        <bk>cause blockades in the ovens, which will make them </bk>
+        <bk>unable to reach high temperatures and require repairs</bk>
+
+    </section>
+
+
+        </section>
+
+
+
+
+
+        <img id="unlimitedpower" src="unlimitedpower.png">
     </div>
 </section>
 </body>
