@@ -5,5 +5,5 @@ header {background-color: white; padding-bottom: 50px; padding-top: 50px; width:
 
 #unlimitedpower{border: 10px solid purple;}
 
-#funFacts{border: 2px solid black; text-align: left; widt: 200px; margin-right: 1500px}
-#funFacts2{border: 2px solid black; text-align: right; width: 300px; margin-left: 1500px;margin-right: 75px }
+#funFacts{border: 2px solid black; text-align: left; width: 200px ; float: left}
+#funFacts2{border: 2px solid black; text-align: left; width: 200px; float: right }
