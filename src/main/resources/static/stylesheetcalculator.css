@@ -22,5 +22,5 @@ header {background-color: transparent; padding-bottom: 50px; padding-top: 50px; 
 
 #unlimitedpower{border: 5px solid purple;border-radius: 10px}
 
-#funFacts{border: 2px solid white; text-align: left; width: 200px ; float: left; padding-left: 5px; padding-right: 5px;border-radius: 10px}
-#funFacts2{border: 2px solid white; text-align: left; width: 200px; float: right; padding-left: 5px; padding-right: 5px; border-radius: 10px}
+#funFacts{border: 2px solid white; text-align: left; width: 200px ; float: left; padding-left: 5px; padding-right: 5px;border-radius: 10px; background-color: gray; opacity: 80%}
+#funFacts2{border: 2px solid white; text-align: left; width: 200px; float: right; padding-left: 5px; padding-right: 5px; border-radius: 10px; background-color: gray; opacity: 80%}
