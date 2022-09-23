@@ -1,9 +1,9 @@
 body {background-color: rgb(0, 138, 174, 1); text-align: center; font-size: 20px; font-family: Arial }
 
-header {background-color: white; padding-bottom: 50px; padding-top: 50px; width: 800px; margin: auto; border-top: 2px solid black; border-right: 2px solid black; border-left: 2px solid black}
+header {background-color: white; padding-bottom: 50px; padding-top: 50px; width: 800px; margin: auto; border: 2px solid black}
 #section1 {background-color: antiquewhite; border: 2px solid black}
 
-#unlimitedpower{border: 10px solid purple;}
+#unlimitedpower{border: 5px solid purple;}
 
-#funFacts{border: 2px solid black; text-align: left; width: 200px ; float: left}
-#funFacts2{border: 2px solid black; text-align: left; width: 200px; float: right }
+#funFacts{border: 2px solid black; text-align: left; width: 200px ; float: left; padding-left: 5px; padding-right: 5px}
+#funFacts2{border: 2px solid black; text-align: left; width: 200px; float: right; padding-left: 5px; padding-right: 5px}
