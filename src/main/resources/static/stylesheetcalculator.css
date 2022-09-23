@@ -11,8 +11,6 @@ body {background-color: rgb(0, 138, 174, 1);
 
     }
 
-
-
 header {background-color: transparent; padding-bottom: 50px; padding-top: 50px; width: 800px; margin: auto; border: 2px solid white;border-radius: 10px}
 #section1 {
     background-color: antiquewhite;
@@ -22,5 +20,5 @@ header {background-color: transparent; padding-bottom: 50px; padding-top: 50px; 
 
 #unlimitedpower{border: 5px solid purple;border-radius: 10px}
 
-#funFacts{border: 2px solid white; text-align: left; width: 200px ; float: left; padding-left: 5px; padding-right: 5px;border-radius: 10px; background-color: gray; opacity: 80%}
-#funFacts2{border: 2px solid white; text-align: left; width: 200px; float: right; padding-left: 5px; padding-right: 5px; border-radius: 10px; background-color: gray; opacity: 80%}
+#funFacts{border: 2px solid white; text-align: left; width: 200px ; float: left; padding-left: 5px; padding-right: 5px;border-radius: 10px; background-color: gray; opacity: 80%; margin-right: auto}
+#funFacts2{border: 2px solid white; text-align: left; width: 200px; float: right; padding-left: 5px; padding-right: 5px; border-radius: 10px; background-color: gray; opacity: 80%; margin-left: auto}
