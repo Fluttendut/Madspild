@@ -14,46 +14,54 @@
     </h1>
 </header>
 
-  Input your amount of waste in the form of kg. below
+Input your amount of waste in the form of kg. below
 
+<section>
+    <form method="post" action="calculate">
+        <input name="value_1" type="number">
 
-    <div>
-        <form method="post" action="calculate">
-            <input name="value_1" type="number">
+        <input type="submit" value="Calculate">
+    </form>
 
-            <input type="submit" value="Calculate">
-        </form>
+    <p><span th:text="${result1}"/> "kWh Heat pr. kg/waste"</p>
+    <p><span th:text="${result2}"/> "kWh Power pr. kg/waste"</p>
 
-        <p><span th:text="${result1}"/> "kWh Heat pr. kg/waste"</p>
-        <p><span th:text="${result2}"/> "kWh Power pr. kg/waste"</p>
+</section>
 
-        <div id="funFacts" >
-            <h1> Fun facts about garbage you might not know! </h1>
-            <bk> 1) The average person in the EU creates </bk>
-            <bk>about 505kg of waste each year. </bk>
-            <p> 2) The average dane creates about 845kg waste each year.</p>
-            <bk>That is almost 50% more than the average person in the EU.</bk>
+<div id="allinebox1">
+    <section id="funFacts">
 
-         </div>
+    <h1> Fun facts about garbage you might not know! </h1>
+    <bk> 1) The average person in the EU creates</bk>
+    <bk>about 505kg of waste each year.</bk>
+    <p> 2) The average dane creates about 845kg waste each year.</p>
+    <bk>That is almost 50% more than the average person in the EU.</bk>
 
-     <div id="funFacts2">
-         <h1> Fun facts part 2</h1>
-         <p> 3) In Denmark, 25% of all heat comes from burning garbage.</p>
-         <bk> 4) Burning 2kg of garbage creates enough electricity to</bk>
-         <bk>vacumclean for 35 min.</bk>
-         <p></p>
-         <bk> 5) Vestforbrændingen creates enough power for 80000 homes</bk>
-         <bk>and enough heat for 75000 homes from burning garbage.</bk>
-         <p> 6) One of the most important reasons, to sort garbage is, when sodacans and other nonflamable objects melt in the furnace can
-         cause blockades in the ovens.</p>
-         <bk>This will make them
-             unable to reach the high temperatures needed and require expensive repairs. </bk>
+    </section>
 
-     </div>
+</div>
 
+<section id="funFacts2">
+    <h1> Fun facts part 2</h1>
+    <p> 3) In Denmark, 25% of all heat comes from burning garbage.</p>
+    <bk> 4) Burning 2kg of garbage creates enough electricity to</bk>
+    <bk>vacumclean for 35 min.</bk>
+    <p></p>
+    <bk> 5) Vestforbrændingen creates enough power for 80000 homes</bk>
+    <bk>and enough heat for 75000 homes from burning garbage.</bk>
+    <p> 6) One of the most important reasons, to sort garbage is, when sodacans and other nonflamable objects melt in
+        the furnace can
+        cause blockades in the ovens.</p>
+    <bk>This will make them
+        unable to reach the high temperatures needed and require expensive repairs.
+    </bk>
+</section>
 
-        <img id="unlimitedpower" src="unlimitedpower.png">
-    </div>
+<section id="image">
+    <img id="unlimitedpower" src="unlimitedpower.png">
+</section>
+
 
 </body>
+
 </html>
