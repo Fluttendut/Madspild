@@ -52,7 +52,13 @@ header {
     border-radius: 10px;
     background-color: gray;
     opacity: 80%;
+}
 
+#returnLink {
+    text-align: center;
+    color: black;
+    font-size: large;
+    margin-left: 250px;
 }
 
 
