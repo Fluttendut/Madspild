@@ -13,13 +13,14 @@ body {
 }
 
 header {
-    background-color: transparent;
+    background-color: gray;
     padding-bottom: 50px;
     padding-top: 50px;
     width: 800px;
     margin: auto;
     border: 2px solid white;
-    border-radius: 10px
+    border-radius: 10px;
+    opacity: 80%
 }
 
 #funFacts {
@@ -58,7 +59,7 @@ header {
     text-align: center;
     color: black;
     font-size: large;
-    margin-left: 250px;
+    margin-left:10%;
 }
 
 
