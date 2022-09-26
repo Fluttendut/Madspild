@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #blink {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+    </style>
     <meta charset="UTF-8">
     <title>boardgame</title>
     <link rel="stylesheet" href="stylesheetboardgame.css">
 </head>
 <body>
-    <header>
-        Hello!!! Pre-order our boardgame!!!
-    </header>
-    <section>
-        <img src="boardgameimg.png">
+
+<audio autoplay src="Lofi.mp3" type="audio/mpeg"></audio>
+<header>
+    <h1>
+        <p id="blink">
+            Hello!!! Pre-order our boardgame!!!
+        </p>
+    </h1>
+    <script type="text/javascript">
+        var blink =
+            document.getElementById('blink');
+
+        setInterval(function () {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000);
+    </script>
+
+
+    <section id="boardgame2section">
+        <img id="boardgameimg2" src="boardgameimg2.png">
+    </section>
+    <section id="boardgame3section">
+        <img id="boardgameimg3" src="boardgameimg3.png">
     </section>
 
+
     <p><a id="returnLink" href="todays_waste_tomorrows_power">Return to previous page</a></p>
+
+</header>
 </body>
 </html>
